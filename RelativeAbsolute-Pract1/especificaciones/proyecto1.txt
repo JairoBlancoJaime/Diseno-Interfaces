@@ -1,0 +1,10 @@
+proyecto1
+=========
+
+Realizar el diseño que muestra la imagen proyecto1.png de la manera más exacta
+posible.
+
+Utilizar reglas de escritorio y detectores de color como ayuda.
+
+El código debe ser limpio (tidy) y valido (según los estándares
+HTML5 y CSS3). 
