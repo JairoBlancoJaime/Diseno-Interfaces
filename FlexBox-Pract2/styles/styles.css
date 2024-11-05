@@ -1,70 +1,81 @@
-*,
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: solid red 1px;
+    
 }
 
 body {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-
+    max-width: 1100px;
     background-color:  #f2f2f2;
-    
-    #Entradas {
-        max-width: 1100px;
-        
+
+    main {
+        text-align: center; /* Se les aplica a h1 y a section */
 
         h1 {
-            text-align: center;
+            padding: 20px;
         }
-    
-        .Articulos {
+
+        #Entradas { /* Contenedor */
+            display: flex;
+            justify-content: center;
+            flex-wrap:wrap;
+            gap: 16px;
             
-            flex-grow: 3;
-    
-            background-color: white;
-    
-            img {
-    
-            }
-            h2 {
-    
-            }
-            p {
-                label{
-    
+            .Articulos {  /* Elemento */
+                
+                width: 300px;
+                margin: 8px;
+                background-color: white;
+        
+                img {
+                    width: 100%;
+                }
+
+                h2 {
+        
+                }
+                p {
+                    label{
+        
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #e659ad;
+                    }
                 }
                 a{
-                    text-decoration: none;
-                    color: #e659ad;
+        
                 }
             }
-            a{
-    
+
+            #Art01 {
+            
+            }
+            #Art02 {
+                
+            }
+            #Art03 {
+                
+            }
+            #Art04 {
+                
+            }
+            #Art05 {
+                
+            }
+            #Art06 {
+                
             }
         }
-    
-        #Art01 {
-    
-        }
-        #Art02 {
-            
-        }
-        #Art03 {
-            
-        }
-        #Art04 {
-            
-        }
-        #Art05 {
-            
-        }
-        #Art06 {
-            
-        }
     }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 468px) {
+
 }
