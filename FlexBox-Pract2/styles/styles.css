@@ -17,7 +17,6 @@ body {
 
         #Entradas {
             height: 100%;
-            background-color: #e659ad;
 
             h2 {
                 font-size: 28px;
@@ -28,6 +27,7 @@ body {
                 display: flex;
                 align-items: flex-start;
                 justify-content: center;
+                /* quitar las 2 lineas de arriba align y justify, poner flex-direction: column; */
                 flex-wrap:wrap;
                 gap: 16px;
                 
@@ -44,18 +44,22 @@ body {
                         font-size: 21px;
                         padding: 8px;
                     }
+
                     p {
                         font-size: 16px;
+
                         label{
                             color: #777777;
                         }
+
                         span{
                             color: #e659ad;
                         }
                     }
+
                     .boton{
                         text-decoration: none;
-                        padding: 8px 10px;
+                        padding: 6px 8px;
                         border: red solid 1px;
                     }
                 }
@@ -64,10 +68,12 @@ body {
     }
 }
 
-@media (min-width: 768px) {
+/*** Tablet ***/
+@media (min-width: 468px) {
 
 }
 
-@media (min-width: 468px) {
+/*** Escritorio ***/
+@media (min-width: 768px) {
 
 }
