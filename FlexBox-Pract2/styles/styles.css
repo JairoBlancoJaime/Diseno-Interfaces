@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} /* * */
 
 body {
     min-height: 100vh;
@@ -21,7 +21,7 @@ body {
             h2 {
                 font-size: 28px;
                 padding: 20px;
-            }
+            } /* h2 */
     
             #ContenedorArticulos {  /* Contenedor */
                 display: flex;
@@ -38,35 +38,35 @@ body {
             
                     img {
                         width: 100%;
-                    }
+                    } /* img */
     
                     h3 {
                         font-size: 21px;
                         padding: 8px;
-                    }
+                    } /* h3 */
 
                     p {
                         font-size: 16px;
 
-                        label{
+                        label {
                             color: #777777;
-                        }
+                        } /* label */
 
-                        span{
+                        span {
                             color: #e659ad;
-                        }
-                    }
+                        } /* span */
+                    } /* p */
 
-                    .boton{
+                    .boton {
                         text-decoration: none;
                         padding: 6px 8px;
                         border: red solid 1px;
-                    }
-                }
-            }
-        }
-    }
-}
+                    } /* .boton */
+                } /* .Articulos */
+            } /* #ContenedorArticulos */
+        } /* #Entradas */
+    } /* main */
+} /* body */
 
 /*** Tablet ***/
 @media (min-width: 468px) {
